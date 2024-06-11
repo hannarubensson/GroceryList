@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grocery List</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    
+    <h1>My Grocery List</h1>
+
+    <div id="grocery-list-wrapper">
+        <h2>Add to shopping list:</h2>
+        <div id="input-wrapper">
+            <input type="text" placeholder="Butter" id="grocery-input">
+            <button id="submit-grocery-item">Submit to list</button>
+        </div>
+
+        <ul id="grocery-list"></ul>
+
+        <button id="clear-items">Clear all items</button>
+    </div>
+
+
+
+    <footer>
+
+        <div id="toggle-div">
+            <p id="activate-txt">Activate mode settings:</p>
+            <label class="switch">
+                <input type="checkbox" id="toggle-btn">
+                <span class="slider round"></span>
+              </label>
+        </div>
+
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
